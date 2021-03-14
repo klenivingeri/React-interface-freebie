@@ -1,0 +1,74 @@
+.menubar{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: 110px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    font-weight: 600;
+    font-family: Inter;
+
+    
+}
+
+ul{
+    list-style: none; 
+}
+li{ 
+    display:inline-block;
+    text-align: center;
+    padding: 1.4rem ;
+    width: 150px;
+    background-color: white;
+    
+    & + li{
+        border-left: 1px solid rgba(50, 50, 50, 0.5); // qualquer li que tenha uma li antes aplique isso
+    } 
+    
+    a{
+        display:inline-block;
+        margin-top: 0.5rem;
+        text-decoration: none; // tira o sublinhado do  link
+        color:#505050;
+    }
+
+    div {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    & + li:last {
+        border-radius:  50px;
+    }
+}
+
+li:last-child {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+li:first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+li:hover{ 
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    box-shadow:  2px 2px 5px rgba(50, 50, 50, 0.5);
+    a{
+        color:red;
+    }
+}
+
+ 
+
+
+
+
+
+
