@@ -15,12 +15,12 @@ div .pedidos {
     color: white;
 }
 
-aside form{
+aside div{
     font-size: 1rem;
     font-weight: 500;
 }
 
- form.form-pedidos{
+ div.form-pedidos{
     padding: 1.1rem;
       
 }
@@ -89,20 +89,93 @@ textarea:focus {
     position: relative;
     top:-28px;
 }
-.editor-textarea span{
+.editor-textarea button{
+    margin: 3px;
     display:inline-block;
     padding: 2px 5px 2px 5px;
 }
 
-span.b{
+button.b{
+    width: 20px;
+    text-align: center;
+    outline: none;
+    border: 0px;
+    background-color: #ccc;
+}
+button.b:hover{
     font-weight: bold;
+}
+button.b:focus{
+    font-weight: bold;
+    background-color: #888888;
 }
 span.space{
     color:rgb(114, 114, 114);
 }
-span.u{
-    font-weight: bold;
-    color:rgb(114, 114, 114);
+button.u{
+    width: 20px;
+    background-color: #ccc;
+    border: 0px;
+    outline: none;
     text-decoration: underline;
+}
+button.u:hover{
+    font-weight: bold;
+}
+button.u:focus{
+    font-weight: bold;
+    background-color: #888888;
+}
 
+
+.pedidos  footer{
+    position: relative;
+    top:-15px;
+    width: 100%;
+    background-color: #ccc;
+    height: 95px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    button{
+        color:white;
+        font-weight: 600;
+    }
+    .btn-cancel{
+        width: 35%;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid  #4e4e4e;
+        background-color: #464646;
+        box-shadow:  2px 2px 5px #464646;
+        
+    }
+    .btn-cancel:hover{
+        
+        background-color: #6b6b6b;
+        box-shadow:  2px 2px 5px #6b6b6b;
+        
+    }
+
+    .btn-send{
+        width: 60%;
+        border-radius: 5px;
+        border: 1px solid  #258a20;
+        outline: none;
+        background-color: #26AC1E;
+        box-shadow:  2px 2px 5px #258a20;
+        }
+        .btn-send:hover{
+            border: 1px solid  #26AC1E;
+            background-color: #289422;
+            box-shadow:  2px 2px 5px #226d1e;
+            }
+        .btn-send:focus{
+            border: 1px solid  #258a20;
+            background-color: #289422;
+            }
 }

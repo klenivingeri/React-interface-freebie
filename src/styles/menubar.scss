@@ -17,13 +17,14 @@
 ul{
     list-style: none; 
 }
+
 li{ 
     display:inline-block;
     text-align: center;
     padding: 1.4rem ;
     width: 150px;
     background-color: white;
-    
+    animation-duration: 4s;
     & + li{
         border-left: 1px solid rgba(50, 50, 50, 0.5); // qualquer li que tenha uma li antes aplique isso
     } 
@@ -32,7 +33,8 @@ li{
         display:inline-block;
         margin-top: 0.5rem;
         text-decoration: none; // tira o sublinhado do  link
-        color:#505050;
+        color:#858578;
+ 
     }
 
     div {
@@ -46,6 +48,8 @@ li{
     }
 }
 
+
+
 li:last-child {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
@@ -57,11 +61,14 @@ li:first-child {
 }
 
 li:hover{ 
+    
     border-top: 5px solid red;
     border-bottom: 5px solid red;
     box-shadow:  2px 2px 5px rgba(50, 50, 50, 0.5);
     a{
+        
         color:red;
+        
     }
 }
 

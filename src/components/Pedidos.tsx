@@ -5,7 +5,7 @@ export function Pedidos(){
         <aside className="pedidos">
             <h1> Contact Form</h1>
 
-        <form className="form-pedidos">
+        <div className="form-pedidos">
             <label className="label-pedidos">Your E-mail</label><br/>
             <input placeholder="Write your email" /><br/>
            
@@ -23,16 +23,21 @@ export function Pedidos(){
 
             <div className="editor">
                 <div className="editor-textarea">
-                    <span className="b">B</span>
+                    <button className="b">B</button>
                     <span className="space">/</span>
-                    <span className="u">U</span>
+                    <button className="u">U</button>
                 </div>
                 <textarea id="story" name="story">
                     It was a dark and stormy night...
                 </textarea>
             </div>
             
-        </form>
+        </div>
+        <footer>
+                <button className="btn-cancel">Cancel</button>
+                <button className="btn-send">Send Message</button>
+    
+        </footer>
         </aside>
     )
 }

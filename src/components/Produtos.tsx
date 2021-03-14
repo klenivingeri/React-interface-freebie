@@ -3,7 +3,7 @@ export function Produtos(){
 
     return(
         <div className="produtos">
-            <img className="slide" src="img/hamburguer.png"/>
+           <a href=""> <img className="slide" src="img/hamburguer.png"/></a>
 
             <div className="description-produto">
 
@@ -15,9 +15,9 @@ export function Produtos(){
                     Lorem Ipsum é simplesmente uma simulação er de texto da indústria tipográfica
                     e de sere impressos, e vem sendo utilizado desde o 23 século XVI, 
                 </p>
-
-                <a href="#">Tast this burgues</a>
-                
+                <span className="ver-detalhes">
+                <i className="fa fa-1x fa-info-circle"></i> <a href="">Tast this burgues</a>
+                </span>
             </div>
             </div>
         </div>
