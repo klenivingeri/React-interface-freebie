@@ -23,9 +23,9 @@ export function Pedidos(){
 
             <div className="editor">
                 <div className="editor-textarea">
-                    <span>B</span>
-                    <span>|</span>
-                    <span>U</span>
+                    <span className="b">B</span>
+                    <span className="space">/</span>
+                    <span className="u">U</span>
                 </div>
                 <textarea id="story" name="story">
                     It was a dark and stormy night...
