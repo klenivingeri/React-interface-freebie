@@ -4,6 +4,8 @@ import '../styles/addproduto.scss'
 
 export function AddProdutos(){
     let [ img, setImg] = useState('https://www.brasilagro.com.br/uploads/conteudo/conteudo/2019/10/SDhLR/hamburguer-vegetariano-mac-FcrAXX_400x400.jpg')
+    
+
     return(
         <div className="add-produto">
             <div className="produto-descricao">
@@ -20,9 +22,9 @@ export function AddProdutos(){
                 </div>
                 <div className="maismenos">
 
-                        <button> - </button>
+                        <button type="button" > - </button>
 
-                 <button> + </button>
+                 <button type="button"> + </button>
                 </div>
 
                     <a className="add-carrinho">

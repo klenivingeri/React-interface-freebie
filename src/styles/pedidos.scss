@@ -46,6 +46,14 @@ select{
     border-radius: 4px;
     font-family: Inter;
 }
+select{
+    padding: 7px ;
+    border: 1px solid  #ccc;
+    width: 100%;
+    box-shadow:  2px 2px 5px rgba(50, 50, 50, 0.5);
+    border-radius: 4px;
+    font-family: Inter;
+}
 select:focus{
     outline: none;
     border:1px solid #505050;
@@ -152,14 +160,22 @@ button.u:focus{
         border: 1px solid  #4e4e4e;
         background-color: #464646;
         box-shadow:  2px 2px 5px #464646;
+       
         
     }
     .btn-cancel:hover{
-        
+        border: 1px solid  #6b6b6b;
         background-color: #6b6b6b;
-        box-shadow:  2px 2px 5px #6b6b6b;
+
+        box-shadow:  2px 2px 5px #464646;
         
     }
+    .btn-cancel:focus{
+        border: 1px solid  #464646;
+        background-color: #6b6b6b;
+        box-shadow:  2px 2px 5px #464646;
+        }
+
 
     .btn-send{
         width: 60%;
@@ -168,14 +184,15 @@ button.u:focus{
         outline: none;
         background-color: #26AC1E;
         box-shadow:  2px 2px 5px #258a20;
+    }
+    .btn-send:hover{
+        border: 1px solid  #26AC1E;
+        background-color: #289422;
+        box-shadow:  2px 2px 5px #226d1e;
+            }
+    .btn-send:focus{
+        border: 1px solid  #258a20;
+        background-color: #289422;
+        box-shadow:  2px 2px 5px #226d1e;
         }
-        .btn-send:hover{
-            border: 1px solid  #26AC1E;
-            background-color: #289422;
-            box-shadow:  2px 2px 5px #226d1e;
-            }
-        .btn-send:focus{
-            border: 1px solid  #258a20;
-            background-color: #289422;
-            }
 }

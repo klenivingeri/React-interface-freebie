@@ -23,9 +23,9 @@ export function Pedidos(){
 
             <div className="editor">
                 <div className="editor-textarea">
-                    <button className="b">B</button>
+                    <button type="button" className="b">B</button>
                     <span className="space">/</span>
-                    <button className="u">U</button>
+                    <button type="button" className="u">U</button>
                 </div>
                 <textarea id="story" name="story">
                     It was a dark and stormy night...
@@ -34,8 +34,8 @@ export function Pedidos(){
             
         </div>
         <footer>
-                <button className="btn-cancel">Cancel</button>
-                <button className="btn-send">Send Message</button>
+                <button type="button" className="btn-cancel">Cancel</button>
+                <button type="button" className="btn-send">Send Message</button>
     
         </footer>
         </aside>
